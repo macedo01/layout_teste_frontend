@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    align-items: center;
+    border-bottom: solid 1px grey;
+}
+
+.menu, .logo, ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    margin-left: 0.3em;
+}
+
+.menu ul li, .menu a{
+    float: left;
+    display: block;
+    width: 34px;
+    height: 34px;
+    text-indent: -9999999px;
+    margin-left: 5px;
+}
+
+.menu ul li a#pinterest{
+    background: url("./imagens/pinterest.png") no-repeat;
+}
+
+.menu ul li a:hover#pinterest{
+    background: url("./imagens/pinterest_hover.png") no-repeat;
+}
+
+.menu ul li a#google{
+    background: url("./imagens/google.png") no-repeat;
+}
+
+.menu ul li a:hover#google{
+    background: url("./imagens/google_hover.png") no-repeat;
+}
+
+.menu ul li a#twitter{
+    background: url("./imagens/twitter.png") no-repeat;
+}
+
+.menu ul li a:hover#twitter{
+    background: url("./imagens/twitter_hover.png") no-repeat;
+}
+
+.menu ul li a#facebook{
+    background: url("./imagens/facebook.png") no-repeat;
+}
+
+.menu ul li a:hover#facebook{
+    background: url("./imagens/facebook_hover.png") no-repeat;
+}
+
+.menu ul li a#rss{
+    background: url("./imagens/rss.png") no-repeat;
+}
+
+.menu ul li a:hover#rss{
+    background: url("./imagens/rss_hover.png") no-repeat;
+}
+
+
+.menu ul li a#dribbble{
+    background: url("./imagens/dribbble.png") no-repeat;
+}
+
+.menu ul li a:hover#dribbble{
+    background: url("./imagens/dribbble_hover.png") no-repeat;
+}
+
+
+.principal{
+    width: 80vw;
+}
+
+.principal li a{
+    margin-right: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.principal a:hover{
+    color: green;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 11em;
+
+}
+
+.banner2, .banner2 img{
+    position: absolute;
+    width: 60em;
+    margin-left: 7.5em;
+    margin-top: 3em;
+}
+
+.banner p{
+    text-align: center;
+    margin-top: 8em;
+    font-family: sans-serif;
+}
+
+#button{
+    margin-left: 65em;
+    width: 12em;
+    height: 2.5em;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #006400;
+
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.imagens{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.imagens div{  
+    flex-shrink: none;
+    width: 30%;
+}
+
+img{
+    width: 96%;
+}
+
+
+
